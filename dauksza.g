@@ -25,12 +25,12 @@ alphabet orthog
 ;
 
 transform decode: input -> orthog
-        {BASIC} -> {}
-        _' -> @decode({}-'}+́
-        _^ -> @decode({}-^}+̂
+       {BASIC} -> {}
+        _' -> @decode({}-')+́
+        _^ -> @decode({}-^)+̂
         _. -> @decode({}-.)+̇
         _` -> @decode({}-`)+̀
-        _~ -> @decode({}-`)_̃
+        _~ -> @decode({}-`)+̃
         'a,' -> ą
         'e,' -> ę
         'i,' -> į
